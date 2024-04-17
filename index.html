@@ -16,6 +16,21 @@
 
 <body class="text-base leading-normal tracking-normal text-black bg-white">
 
+    <style>
+        #menu-toggle:checked + #menu {
+            display: block;
+        }
+        
+        .hover\:grow {
+            transition: all 0.3s;
+            transform: scale(1);
+        }
+        
+        .hover\:grow:hover {
+            transform: scale(1.02);
+        }
+    </style>
+
     <header>
         <nav id="header" class="w-full py-1 ">
             <div
